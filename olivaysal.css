@@ -1,0 +1,245 @@
+/*       Tipografias    -      Pinyon Script     (Kapakana)                */
+.pinyon-script-regular {
+    font-family: "Pinyon Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+ /*  
+ // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 700
+
+.josefin-slab-<uniquifier> {
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+ */ 
+
+ /* 
+ // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.urbanist-<uniquifier> {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+ */
+
+ 
+
+.DesktopPaginaPrincipal {
+width: 1540px; height: 5941px; position: relative; background: rgba(245, 245, 245, 0.96);
+display: flex;
+align-items: center;
+
+}
+
+.DesktopPaginaPrincipal .FrameHeader {
+    width: 1320px; height: 489px; left: 60px; top: 51px; position: absolute;
+}
+
+.DesktopPaginaPrincipal .FrameHeader .Fondo {
+    width: 1200px; height: 299.50px; left: 60px; top: 155.50px; position: absolute; 
+
+}
+.DesktopPaginaPrincipal .FrameHeader .Fondo .FondoImagen {
+    width: 1295px; height: 299.50px; 
+    object-fit: cover;
+    
+}
+
+.Nombre {
+    width: 1320px; height: 390px; left: 50px; top: 99px; position: absolute;
+    
+}
+
+.Nombre .Bordedb {
+    width: 425px; height: 197px; left: 448px; top: 108px; position: absolute;
+
+}
+
+.Nombre .OlivaSal {
+    left: 50px; top: 73px; position:relative; color: white; font-size: 60px; font-family: "Pinyon Script"; font-weight: 400; word-wrap: break-word;
+}
+.Nombre .Borde {
+    width: 400px; height: 197px; left: 0px; top: 0px; position: absolute; border-radius: 29px; border: 4px white double;
+
+}
+
+.BotLinea{
+    width: 200px; height: 0px; left: 560px; top: 390px; position: absolute; border: 1px black solid;
+
+}
+
+.TopLinea {
+    width: 1320px; height: 0px; left: 0px; top: 0px; position: absolute; border: 1px black solid;
+
+}
+
+.LineaDivisora {
+    height: 0;
+    position: absolute;
+    border: 1px black solid;
+}
+
+#linea1 {
+    width: 1140px; left: 150px; top: 1980px;
+
+}
+
+#linea2 {
+    width: 1140px; left: 150px; top: 4500px;
+
+}
+
+#linea3 {
+    width: 1140px; left: 150px; top: 5040px;
+
+}
+
+#linea4 {
+    width: 1140px; left: 150px; top: 5640px;
+
+}
+
+#linea5 {
+    width: 210px; left: 615px; top: 3240px;
+
+}
+.InfoMenuDeNavegacion {
+    width: 1211px; height: 79px; left: 54px; top: 0px; position: absolute;
+
+}
+
+.InfoMenuDeNavegacion .Logo {
+    width: 86px; height: 79px; left: 0px; top: 0px; position: absolute;
+
+}
+.InfoMenuDeNavegacion .DolceBegliano {
+    left: 92px; top: 28px; position: absolute; color: black; font-size: 20px; font-family: Urbanist; font-weight: 200;  word-wrap: break-word;
+
+}
+
+.InfoMenuDeNavegacion .Menu {
+    left: 755px; top: 34px; position: absolute; color: black; font-size: 20px; font-family: Urbanist; font-weight: 200;  word-wrap: break-word;
+
+}
+.InfoMenuDeNavegacion .Sucursales {
+    left: 1093px; top: 34px; position: absolute; color: black; font-size: 20px; font-family: Urbanist; font-weight: 200;  word-wrap: break-word;
+
+}
+
+.InfoMenuDeNavegacion .AcercaDe {
+    left: 553px; top: 34px; position: absolute; color: black; font-size: 20px; font-family: Urbanist; font-weight: 200;  word-wrap: break-word;
+
+}
+
+.InfoMenuDeNavegacion .Reservas {
+   left: 909px; top: 34px; position: absolute; color: black; font-size: 20px; font-family: Urbanist; font-weight: 200;  word-wrap: break-word;
+
+}
+
+.DolceBegliano:hover {
+    transform: scale(1.1);
+}
+
+.Menu a:hover, .Sucursales a:hover, .AcercaDe a:hover, .Reservas a:hover {
+    transform: scale(1.5);
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    padding: 8px;
+    background-color: #7C8240;
+    color: white;
+
+}
+
+.FrameFotosInfo {
+
+    height: 1320px; padding-top: 62px; padding-bottom: 41px; padding-left: 100px; padding-right: 132px; 
+    left: 60px; top: 600px; position: absolute; background: white; flex-direction: column; 
+    justify-content: space-between; align-items: center; gap: 60px; display: inline-flex;
+
+}
+
+.FrameFotosInfo .RecMediano{
+    width: 1024px; height: 300px; position: relative;
+    
+}
+.FrameFotosInfo .RecMedianoi{
+    width: 480px; height: 300px; left: 0px; top: 0px; position: absolute; border-radius: 5px;
+    
+}
+
+.FrameFotosInfo .RecMediano .Lorem-RecMediano{
+    width: 474px; left: 550px; top: 81px; position: absolute;
+
+}
+
+img:hover {
+    transform: scale(1.1);
+
+}
+
+
+.FrameMenuComida .LoremIpsums .Lorem {
+    position: absolute; color: white; font-size: 16px; font-family: Josefin Slab; font-weight: 300; word-wrap: break-word;
+}
+
+
+.Rectangle48 {
+
+    width: 1250px; height: 2400px; left: 80px; top: 2040px; position: absolute; background: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
